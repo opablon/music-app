@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App No</title>
+    <link rel="stylesheet" href="styles/grid.css">
+</head>
+<body>
+    <main>
+        
+        <div class="grid-container">
+            
+            <div class="loop-container">
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-1" value="0">
+                    <label for="loop-1" class="loop-button loop-button-1"></label>
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-2" value="1">
+                    <label for="loop-2" class="loop-button loop-button-2"></label>
+                    
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-3" value="2">
+                    <label for="loop-3" class="loop-button loop-button-3"></label>
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-4" value="3">
+                    <label for="loop-4" class="loop-button loop-button-4"></label>
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-5" value="4">
+                    <label for="loop-5" class="loop-button loop-button-5"></label>
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-6" value="5">
+                    <label for="loop-6" class="loop-button loop-button-6"></label>    
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-7" value="6">
+                    <label for="loop-7" class="loop-button loop-button-7"></label>
+                </li>
+                <li class="loops">
+                    <input type="radio" name="loop" id="loop-8" value="7">
+                    <label for="loop-8"  class="loop-button loop-button-8"></label>
+                </li>
+            </div>
+            
+            <div class="effect-container">
+                <div class="effects effect-1">
+                    <div class="effect-knob effect-knob-1">1</div>
+                </div>
+                <div class="effects effect-2">
+                    <div class="effect-knob effect-knob-2">2</div>
+                </div>
+                <div class="effects effect-3">
+                    <div class="effect-knob effect-knob-3">3</div>
+                </div>
+                <div class="effects effect-4">
+                    <div class="effect-knob effect-knob-4">4</div>
+                </div>
+            </div>
+            
+            <div class="pad-container">
+                <div class="pads pad-1">
+                    <div class="pad-hit pad-hit-1"  id="pad-1">1</div>
+                </div>
+                <div class="pads pad-2">
+                    <div class="pad-hit pad-hit-2">2</div>
+                </div>
+                <div class="pads pad-3">
+                    <div class="pad-hit pad-hit-3">3</div>
+                </div>
+                <div class="pads pad-4">
+                    <div class="pad-hit pad-hit-4">4</div>
+                </div>
+            </div>
+            
+            <div class="control-container">
+                
+                <div class="controls control-1">
+                    <div class="slides slide-1">
+                        <div class="faders fader-1">1</div>
+                    </div>
+                </div>
+                <div class="controls control-2">
+                    <div class="slides slide-2">
+                        <div class="faders fader-2">1</div>
+                    </div>
+                </div>
+                <div class="controls control-3">
+                    <div class="slides slide-3">
+                        <div class="faders fader-3">1</div>
+                    </div>
+                </div>
+                <div class="controls control-4">
+                    <div class="slides slide-4">
+                        <div class="faders fader-4">1</div>
+                    </div>
+                </div>
+                           
+                <div class="subcontrols control-6">
+                    <div class="slidesh slideh-6">
+                        <div class="fadersh faderh-6">1</div>
+                    </div>
+                </div>
+                <div class="subcontrols control-7">
+                    <div class="slidesh slideh-7">
+                        <div class="fadersh faderh-7">1</div>
+                    </div>
+                </div>
+                <div class="subcontrols control-8">
+                    <div class="slidesh slideh-8">
+                        <div class="fadersh faderh-9">1</div>
+                    </div>
+                </div>
+                <div class="subcontrols control-9">
+                    <div class="slidesh slideh-9">
+                        <div class="fadersh faderh-9">1</div>
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="keyboard-container">
+                <div class="keys key-1" >
+                    <div class="key-key key-key-1" id="key1"></div>
+                </div>
+                <div class="keys key-2">
+                    <div class="key-key key-key-2" id="key2"></div>
+                </div>
+                <div class="keys key-3">
+                    <div class="key-key key-key-3" id="key3"></div>
+                </div>
+                <div class="keys key-4">
+                    <div class="key-key key-key-4" id="key4"></div>
+                </div>
+                <div class="keys key-5">
+                    <div class="key-key key-key-5" id="key5"></div>
+                </div>
+                <div class="keys key-6">
+                    <div class="key-key key-key-6" id="key6"></div>
+                </div>
+                <div class="keys key-7">
+                    <div class="key-key key-key-7" id="key7"></div>
+                </div>
+                <div class="keys key-8">
+                    <div class="key-key key-key-8" id="key8"></div>
+                </div>
+                
+            </div>
+        
+        </div>
+
+    </main>
+    <script src="https://unpkg.com/@tonejs/midi"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.12/Tone.js"></script>
+    <script src="components/keyboard.js"></script>
+    <script src="components/arpeggiator(looper).js"></script>    
+</body>
+</html>

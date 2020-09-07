@@ -1,0 +1,22 @@
+.effects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.effect-knob {
+    background-color: black;
+    border-radius: 50%;
+
+    flex-basis: 30%;
+    height: 30%;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+
+    color: beige;
+
+}

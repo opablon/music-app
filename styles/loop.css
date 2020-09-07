@@ -1,0 +1,29 @@
+.loops {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loop-button {
+    flex-basis:70%;
+    height: 70%;
+    border-radius: 15%;
+
+    
+    background-color: aqua;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    color:brown;
+}
+input {
+    display: none;
+}
+
+input:checked + label {
+    background-color: blue;
+}
+
+

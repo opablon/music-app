@@ -1,0 +1,66 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.subcontrols {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 10%;
+    height:70%;
+
+    background-color: mediumseagreen;
+
+}
+
+.faders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 70%;
+    height: 15%;
+    background-color: black;
+    border-radius: 15%;
+
+    
+
+}
+
+.slidesh {
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 70%;
+    height:10%;
+
+    background-color: mediumseagreen;
+
+}
+.fadersh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 15%;
+    height: 70%;
+    background-color: black;
+    border-radius: 15%;
+}
